@@ -5,7 +5,7 @@ type Cell struct {
 	numNeighbours int64
 }
 
-func updateCell(cell Cell) {
+func UpdateCell(cell Cell) {
 	if cell.numNeighbours < 2 {
 		cell.alive = false
 	} else if cell.alive {
